@@ -1,7 +1,7 @@
 parse-cloud-code
 ================
 
-adding some data scrubbing code
+data scrubbing code for dealing with 'undefined' channel field in installation object. The below runs the code against squar-staging only, so safe for testing
 
 run this curl command to run the function
 ```curl
