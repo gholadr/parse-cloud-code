@@ -1,7 +1,6 @@
 Parse.Cloud.job("channelDataScrub", function(request, status) {
     // Set up to modify user data
     Parse.Cloud.useMasterKey();
-    var counter = 0;
     // Query for all users
     var query = new Parse.Query(Parse.User);
     var counter = 0
